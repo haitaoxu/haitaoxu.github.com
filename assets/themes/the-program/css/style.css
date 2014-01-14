@@ -606,6 +606,17 @@ pre {
   position: relative;
   top: 2px;
 }
+
+.the-header .nav-global .head {
+  background: url('/assets/themes/the-program/skin/head.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-size: 100%;
+  border-radius: 50%;
+}
 /* MAIN
 --------------------------------------------------------------------------------- */
 .unit-article header {
@@ -989,7 +1000,7 @@ pre {
   }
 }
 /*
-	Not that old computer layout 
+	Not that old computer layout
 */
 @media only screen and (min-width: 1280px) {
   .the-header .unit-head .nav-global .logo {
@@ -1024,7 +1035,7 @@ pre {
   }
 }
 /*
-	Huge-screen layout 
+	Huge-screen layout
 */
 @media only screen and (min-width: 1410px) {
   .the-header {
